@@ -1,0 +1,107 @@
+.sidebar-form {
+    border-radius: 3px;
+    border: 1px solid #374850;
+    margin: 10px 10px;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.sidebar-form input[type="search"] {
+    color: #666;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    width: 100%;
+}
+.sidebar-form input[type="search"], .sidebar-form .btn {
+    box-shadow: none;
+    border: none;
+    height: 35px;
+}
+.sidebar-form .btn {
+    background-color: #374850;
+}
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+    width: 1%;
+    vertical-align: middle;
+    display: table-cell;
+}
+.sidebar-menu>li.header {
+    color: #4b646f;
+    background: #1a2226;
+}
+.sidebar-menu li>div,.sidebar-menu li>a{
+    border-left: 3px solid transparent;
+    cursor: pointer;
+}
+.sidebar-menu li:hover>div, .sidebar-menu li.active>div, .sidebar-menu li.menu-open>div,
+.sidebar-menu li:hover>a, .sidebar-menu li.active>a, .sidebar-menu li.menu-open>a {
+    color: #fff;
+    background: #1e282c;
+}
+.sidebar-menu li.active>div,.sidebar-menu li.active>a {
+    border-left-color: #3c8dbc;
+}
+.sidebar div,.sidebar a {
+    color: #b8c7ce;
+}
+.main-header .logo {
+    background-color: #367fa9;
+    color: #fff;
+    border-bottom: 0 solid transparent;
+}
+.main-header .navbar {
+    background-color: #3c8dbc;
+}
+.navbar {
+    position: initial;
+    display: block;
+    flex-wrap: initial;
+    align-items: initial;
+    justify-content: initial;
+    padding: 0;
+}
+.nav-item{
+    color: white;
+}
+.nav-link{
+    padding: 13px 0;
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+}
+.dropdown-menu{
+    min-width: initial !important; 
+}
+@media only screen and (min-width: 767px) {
+    .sidebar-toggle{
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .sized{
+        display: none;
+    }
+}
+table.dataTable{
+    width: 100% !important;
+}
+.modal-body img{
+    width: 100%;
+    height: 100%;
+}
+#pageSubmenu a{
+    padding-left: 40px;
+}
+.fomulario {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
